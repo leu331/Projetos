@@ -1,17 +1,18 @@
-:root{ /* Trabalhando com a fonte geral*/
+:root{ 
     font-family: "Alice", serif;
     line-height: 150%;
     text-align: justify;
     font-size: 16px;
+    color: #573A37;
 }
 
 body {
-    background-image: url(assets/Página\ de\ receita.jpg) ; /* Imagem de background, usar parametro de url para achar da internet ou do meu computador*/
-    background-size: cover; /* size para escolher o tamanho e cover para que a imagem preencha todo a página*/
+    background-image: url(assets/Página\ de\ receita.jpg) ; 
+    background-size: cover; 
 }
 
 #page {
-    box-sizing: border-box; /*para retirar a soma dos 48px dos paddings*/
+    box-sizing: border-box; 
     width: 800px;
     padding: 24px; 
     background-color: #f0e8c2;
@@ -24,7 +25,13 @@ img {
     border-radius: 16px ;
 }
 
-h1 { /* Trabalhando apenas com a fonte de h1*/
+h1 { 
     line-height: 140%;
     font-size: 40px;
+    color: #291B1A;
+}
+
+h2 {
+    font-size: 24px;
+    color: #291B1A;
 }
